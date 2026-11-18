@@ -1,0 +1,110 @@
+PYTHON PROGRAMMING CHALLENGES
+=============================
+
+--- TOPIC 1: VARIABLES ---
+1. Create a variable named `city` and assign it the name of your favorite city.
+2. Assign the value 50 to a variable `x`, and the value 100 to a variable `y`.
+3. Swap the values of `x` and `y` without using a hardcoded number.
+4. Create three variables (`a`, `b`, `c`) and assign them the values 1, 2, and 3 in a single line of code.
+5. Create a variable `counter` set to 0, then update it to be 1 using the `+=` operator.
+6. Declare a variable with an invalid name (e.g., starting with a number) to see the SyntaxError it produces, then fix it.
+7. Create a variable `first_name` and `last_name`, then create a third variable `full_name` that combines them.
+8. Delete a variable named `temp_var` from memory using the `del` keyword.
+9. Assign the same value ("Python") to three different variables (`lang1`, `lang2`, `lang3`) in a single line.
+10. Create a variable using snake_case and another using camelCase to represent the concept of "user age".
+
+--- TOPIC 2: DATA TYPES ---
+11. Use the `type()` function to find the data type of the value 3.14.
+12. Cast the integer 10 into a float.
+13. Cast the float 9.99 into an integer and note what happens to the decimal part.
+14. Cast the string "25" into an integer.
+15. Determine the data type of the result when you divide 4 by 2.
+16. Create a variable holding a list of three numbers and check its type.
+17. Cast the integer 0 to a boolean. What is the result?
+18. Convert the string "False" to a boolean. Does it evaluate to True or False?
+19. Create a dictionary with one key-value pair and print its type.
+20. Use `isinstance()` to check if the value 100 is of type `int`.
+
+--- TOPIC 3: STRINGS ---
+21. Find the length of the string "Supercalifragilisticexpialidocious".
+22. Extract the word "World" from the string "Hello World" using string slicing.
+23. Convert the string "loud noises" to all uppercase letters.
+24. Replace the word "apples" with "oranges" in the string "I like apples".
+25. Remove the whitespace from the beginning and end of the string "   too much space   ".
+26. Use an f-string to insert the variable `age = 30` into the sentence "I am [age] years old."
+27. Reverse the string "racecar" using slicing.
+28. Count how many times the letter "s" appears in "mississippi".
+29. Split the string "one,two,three" into a list of words using the comma as a separator.
+30. Check if the string "Python is fun" starts with the word "Python".
+
+--- TOPIC 4: NUMBERS ---
+31. Create an integer and a float. Multiply them together. What is the type of the result?
+32. Round the number 3.14159 to two decimal places.
+33. Find the absolute value of -42.
+34. Convert the binary string "1010" to a base-10 integer using `int()`.
+35. Find the maximum value among the numbers 4, 1, 9, -2, and 6 using the built-in `max()` function.
+36. Find the minimum value in the same set of numbers using `min()`.
+37. Represent the complex number 2 + 3j in Python and extract its real part.
+38. Represent the number 1 million using an underscore separator for readability (e.g., 1_000_000) and print it.
+39. Use the `math` module to find the square root of 144.
+40. Use the `math` module to round 4.2 strictly UP to the nearest integer.
+
+--- TOPIC 5: MATHEMATICAL OPERATIONS ---
+41. Add 15 and 27.
+42. Subtract 100 from 33.
+43. Multiply 8 by 12.
+44. Divide 10 by 3 using standard division (`/`).
+45. Divide 10 by 3 using floor division (`//`) and note the difference.
+46. Find the remainder of 17 divided by 5 using the modulo operator (`%`).
+47. Calculate 2 to the power of 8 using the exponentiation operator (`**`).
+48. Write an expression that uses addition, multiplication, and parentheses to result in 50.
+49. Evaluate `10 + 2 * 5` and `(10 + 2) * 5` and explain the difference.
+50. Use the modulo operator to determine if 24 is an even number.
+
+--- TOPIC 6: BOOLEANS ---
+51. Evaluate the expression `5 > 3` and store the result in a variable.
+52. Evaluate `10 == "10"` and explain the output.
+53. Evaluate `True and False`.
+54. Evaluate `True or False`.
+55. Evaluate `not True`.
+56. Write an expression checking if 15 is greater than 10 AND less than 20.
+57. Check if the length of "cat" is equal to the length of "dog".
+58. Evaluate `bool("")` (an empty string) and explain why it evaluates the way it does.
+59. Evaluate `bool(1)` and `bool(0)`.
+60. Use the `in` operator to check if the letter "a" is in the word "banana".
+
+--- TOPIC 7: CONDITIONALS ---
+61. Write an `if` statement that prints "Adult" if a variable `age` is 18 or older.
+62. Add an `else` clause to the previous challenge to print "Minor" if under 18.
+63. Write an `if-elif-else` block that checks a variable `temperature`. Print "Hot" if > 30, "Warm" if > 20, and "Cold" otherwise.
+64. Write a nested `if` statement: check if a number is positive, and if so, check if it is even.
+65. Use a ternary operator (conditional expression) to assign "Pass" to a variable if `score` is > 50, else "Fail".
+66. Write an `if` statement that checks if a string `my_string` is empty.
+67. Write an `if` statement that executes only if `x` is greater than 10 AND `y` is less than 5.
+68. Write an `if` statement that triggers if a variable `color` is "red", "blue", OR "green".
+69. Create a condition that checks if a given year is a leap year (divisible by 4, but not by 100 unless also divisible by 400).
+70. Write a program that checks if a given number is divisible by both 3 and 5 (FizzBuzz logic).
+
+--- TOPIC 8: FUNCTIONS ---
+71. Define a function `greet()` that prints "Hello, World!". Call the function.
+72. Define a function `greet_user(name)` that takes a name as an argument and prints "Hello, [name]!".
+73. Define a function `add_numbers(a, b)` that returns the sum of a and b.
+74. Create a function that takes a number and returns True if it's even, False otherwise.
+75. Define a function `get_info()` that returns two values: a string and an integer.
+76. Create a function with a default argument: `multiply(a, b=2)`. Call it with and without the second argument.
+77. Call a function `calculate_area(length, width)` using keyword arguments instead of positional arguments.
+78. Create a function that takes an arbitrary number of positional arguments (`*args`) and returns their sum.
+79. Create a function that takes an arbitrary number of keyword arguments (`**kwargs`) and prints them as a dictionary.
+80. Write a lambda function that squares a given number.
+
+--- TOPIC 9: SCOPE ---
+81. Create a global variable `x = 10`. Create a function that prints `x`. Call the function.
+82. Create a global variable `y = 5`. Inside a function, create a local variable `y = 2` and print it. Print the global `y` outside the function to see the difference (Shadowing).
+83. Write a function that modifies a global variable using the `global` keyword.
+84. Write a nested function (a function inside a function) and try to access a variable from the outer function.
+85. Modify a variable from an enclosing scope inside a nested function using the `nonlocal` keyword.
+86. Attempt to print a local variable (defined inside a function) from outside the function to intentionally trigger a NameError.
+87. Write a loop inside a function. Prove that loop control variables (like `i` in `for i in range(5)`) remain in the function's local scope, not a separate block scope.
+88. Create a list globally. Inside a function, append an item to the list without using the `global` keyword. Explain why this works (mutability vs reassignment).
+89. Try to reassign a global string variable inside a function without the `global` keyword to see the resulting UnboundLocalError.
+90. Use the `globals()` and `locals()` built-in functions inside a function to print the current variables in both scopes.
